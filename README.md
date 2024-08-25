@@ -1,18 +1,36 @@
-# Spreadsheet_app
-pages/index.js: Main page where the grid is rendered and all features are implemented.
-store/useStore.js: Contains the state management logic using Zustand.
-styles/globals.css: Global styles using Tailwind CSS.
-tailwind.config.js: Configuration file for Tailwind CSS.
-Usage Instructions
-Editing Cells:
+This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-Click on any cell to edit its content. Enter text or numeric values directly into the cells.
-Undo/Redo:
+## Getting Started
 
-Use the "Undo" button to revert the last change made to any cell.
-Use the "Redo" button to reapply the last reverted change.
-Text Alignment:
+First, run the development server:
 
-Use the dropdown menu labeled "Left," "Center," or "Right" to change the text alignment of the selected cells.
-Font Size:
-Use the dropdown menu labeled "Small," "Medium," or "Large" to adjust the font size of the selected cells.
+```bash
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+# or
+bun dev
+```
+
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+
+You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+
+This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+
+## Learn More
+
+To learn more about Next.js, take a look at the following resources:
+
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+
+## Deploy on Vercel
+
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
