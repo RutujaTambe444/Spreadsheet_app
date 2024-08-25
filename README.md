@@ -1,4 +1,9 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+Project Structure
+pages/index.js: Main page where the grid is rendered and all features are implemented.
+store/useStore.js: Contains the state management logic using Zustand.
+styles/globals.css: Global styles using Tailwind CSS.
+tailwind.config.js: Configuration file for Tailwind CSS.
 
 ## Getting Started
 
